@@ -1,0 +1,265 @@
+/*******news开始********/
+#news{
+    height: 174px;
+    margin-top: 20px;
+  
+ }
+ #news .wrapper{
+ 	height: 174px;
+ 
+ }
+ #news-left{
+ 	float: left;
+ 	margin-right: 40px;
+ }
+ .news-title{
+   width: 334px;
+   height: 27px;
+   border-bottom: 2px;
+   background:url(../img/xw_1.png) no-repeat left center;
+   border-bottom:1px solid #EA3939;
+ }
+ .news-title span{
+ 	display: block;
+width: 100px;
+height: 27px;
+
+margin-left: 20px;
+line-height: 27px;
+float: left;
+color: #EA3939;
+    font-size: 15px;
+
+ }
+.news-title a{
+	float: right;
+	height: 27px;
+	display: block;
+	line-height: 27px;
+	color: #5A5A5A;
+
+}
+.news-title a:hover{
+	    color: #CC0000;
+}
+.news-ul{
+	width: 334px;
+	height: 145px;
+	
+   font-size:12px;
+	color: #5A5A5A;
+}
+.news-ul li{
+	width: 329px;
+	height: 20px;
+	padding:5px 0px 3px 5px;
+	list-style: square;
+	border-bottom:1px dotted  #cccccc;
+}
+
+.news-ul a{
+	font-size:12px;
+	color: #5A5A5A;
+}
+.news-ul span{
+	float: right;
+
+}
+#news-center{
+	float: left;
+	margin-right: 40px;
+}
+#news-center .news-title{
+	background:url(../img/xw_2.png) no-repeat left center;
+	    border-bottom: 2px solid black;
+   
+
+}
+#news-center  .news-title span{
+	    color: black;
+}
+#news-center .news-title a{
+	color: #000;
+}
+#news-center .news-title a:hover{
+	    color: #CC0000;
+}
+#news-right{
+	width: 340px;
+	height: 171px;
+	
+   float: left;
+}
+#news-right-ul li{
+	width: 100px;
+	height: 171px;
+
+	padding-right:20px;
+	float: left;
+}
+#news-right-ul #news-right-ul1 {
+   background:url(../img/sy_tz_1.jpg) no-repeat left top;
+}
+#news-right-ul #news-right-ul1:hover {
+	  background:url(../img/sy_tz_1_h.jpg) no-repeat left top;
+}
+#news-right-ul #news-right-ul2{
+   background:url(../img/sy_tz_2.jpg) no-repeat left top;
+} 
+#news-right-ul #news-right-ul2:hover {
+	  background:url(../img/sy_tz_2_h.jpg) no-repeat left top;
+}
+ #news-right-ul #news-right-ul-last{
+	padding-right: 0px;
+   background:url(../img/sy_tz_3.jpg) no-repeat left top;
+}
+#news-right-ul #news-right-ul-last:hover {
+	  background:url(../img/sy_tz_3_h.jpg) no-repeat left top;
+}
+#news-right-ul a{
+	display: block;
+	margin-top: 130px;
+	text-align: center;
+	    color: #EA3939;
+    font-size: 14px;
+    font-weight: bold;
+}
+#news-right-ul h2{
+	    color: #826682;
+	    font-size: 12px;
+	    text-align: center;
+	    margin-top: 5px;
+}
+/*******news结束********/
+/*******about-us开始********/
+#about-us{
+	height: 317px;
+	margin: 10px 0px 20px 0px;
+
+}
+#about-us .wrapper{
+	height: 317px;
+
+}
+#about-us-left{
+	width: 289px;
+	height: 317px;
+    float:left;
+	margin-right: 10px;
+}
+#about-us-left-top{
+	height: 135px;
+	background:url(../img/ab_t.jpg) no-repeat;
+}
+#sp1{
+	display: block;
+	width: 39px;
+	height: 66px;
+	margin-left: 30px;
+	padding: 0px 10px 10px 10px;
+    background: #EA3939;
+    font-size: 18px;
+    color: #fff;
+    line-height:33px; 
+}
+#sp2{
+	display: block;
+	width: 59px;
+	height:30px;
+	margin-left: 30px;
+	margin-top: 29px;
+	background-color: black;
+	color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+
+}
+#left-content{
+	width: 266px;
+	height: 150px;
+	padding: 20px 10px 10px 10px;
+	font-size: 14px;
+	color: #5A5A5A;
+	border: 1px #CCCCCC solid;
+}
+#about-us-mid{
+	width: 236px;
+	height: 275px;
+	padding: 20px;
+	background:url(../img/yw_t.png) no-repeat center bottom #F1F1F1;
+	float:left;
+	margin-right: 10px;
+}
+
+#about-us-mid h2{
+	width: 236px;
+	height: 27px;
+	font-size: 15px;
+    color: #EA3939;
+}
+#about-us-mid p{
+	width: 236px;
+	height: 90px;
+    font-size: 13px;
+    line-height: 30px;
+ color: black;
+}
+#about-us-mid h3{
+	 color: #EA3939;
+	 font-size: 12px;
+}
+#about-us-right{
+	width: 505px;
+	height: 315px;
+
+	float:left;
+}
+#about-us-right-top{
+	width: 505px;
+	height: 153px;
+    background:yellow;
+    margin-bottom: 10px;
+
+    background:url(../img/call_t.png) no-repeat left center #F1F1F1;
+}
+#about-us-right-top ul{
+	width: 265px;
+	height: 113px;
+	margin: 20px 0px 20px 240px;
+	float:left;
+}
+#about-us-right-top ul li{
+	line-height: 30px;
+    font-size: 14px;
+    color: black;
+
+}
+#about-us-right-bottom{
+  width: 505px;
+  height: 152px;
+  background:url(../img/zp_t.png) no-repeat left center #F1F1F1;
+}
+#bottom-right{
+   width: 315px;
+   height: 25px;
+   margin: 20px 20px 0px 170px;
+   float: left;
+  
+}
+#bottom-right h2{
+	 font-size: 14px;
+    color: #EA3939;
+}
+#bottom-right p{
+    font-size: 13px;
+    line-height: 30px;
+    color: black;
+}
+#bottom-right a{
+	color: #EA3939; 
+	 font-size: 14px;
+ }
+ 
+
+/*******about-us结束********/

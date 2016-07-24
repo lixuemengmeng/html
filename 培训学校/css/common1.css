@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0px;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	border:0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	color: black;
+	font: 12px/1.8 Tahoma,Verdana,Arial,宋体;
+}
+/**********header开始*************/
+#header{
+	height: 76px;
+	width: 100%;
+	
+}
+#logo{
+	margin-top:10px;
+	float:left;
+
+}
+#main-nav{
+	float:right;
+    margin-top:20px;
+}
+#main-nav li{
+	float:left;
+	width: 90px;
+	height: 36px;
+}
+#main-nav li a{
+	width: 90px;
+	height: 36px;
+	display:block;
+	line-height: 36px;
+	color:#000;
+
+}
+#main-nav li a:hover{
+    color:red;
+}
+
+/**********header结束*************/
+/**********banner开始*************/
+#banner{
+	/*width: 1263px;*/
+	height:453px;
+	background:url(../img/2.png) no-repeat center center;
+
+}
+
+/**********banner结束*************/
+.wrapper{
+	width:1172px;
+	height:76px;
+margin:0 auto;
+	
+}
+/**********footer开始*************/
+#footer{
+	width: 100%;
+	height: 87px;
+	padding: 5px 0px 20px 0px;
+	    background: #414B4A;
+}
+#footer .wrapper{
+	
+	height: 87px;
+	width:450px;
+}
+#footer-menu{
+	
+	height: 27px;
+	margin: 0 auto;
+
+	margin-bottom:10px;
+	
+}
+#footer-menu li{
+	float:left;
+	margin-left: 20px;
+	font-size: 15px;
+ 
+}
+#footer-menu li a{
+	color: #fff;
+}
+.footer-p{
+	height: 21px;
+	margin-top: 6px;
+	 font-size: 12px;
+	color: #fff;
+	clear: both;
+	text-align: center;
+}
+#footer-foot{
+	height: 27px;
+	margin-top: 6px ;
+	 
+	color: #fff;
+}
+#footer-foot p{
+	display: inline;
+	margin-left: 70px;
+	
+
+}
+#footer-foot a{
+	font-size: 15px;
+    text-align: center;
+   color: #fff;
+   text-decoration: underline;
+}
+#footer-foot a:hover{
+	color: blue;
+}
+/**********footer结束*************/

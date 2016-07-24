@@ -1,0 +1,163 @@
+#information{
+	width: 100%;
+	height: 856px;
+	
+}
+#information .wrapper{
+	height: 836px;
+
+	padding-top: 20px;
+}
+#info-nav{
+  height:90px;
+
+  text-align: center;
+
+}
+#info-nav a{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+         font-size: 16px;
+	margin: 0px 10px;
+	text-align: center;
+	border:1px;
+	border-radius: 7px;
+	line-height: 30px;
+	color: #000;
+}
+#info-nav a:hover{
+	color: #fff;
+    background: #6AA84F;
+}
+#info-img{
+	height: 746px;
+
+}
+#info-img li{
+	width: 220px;
+	height: 328px;
+	padding: 10px 20px 40px 20px;
+	float: left;
+}
+#info-img p{
+	width: 220px;
+	height: 35px;
+	
+	text-align: center;
+	line-height: 35px;
+	    font-size: 16px;
+      
+}
+#info-img p a{
+	 color: #333;
+}
+#info-img p a:hover{
+	color: #4d90ff;
+}
+#info-img img{
+ 
+   display: block;
+   width: 220px;
+   height: 225px; 
+   border: 6px solid #ccc;
+
+}/**********problem开始*************/
+#problem{
+	height: 374px;
+	padding: 10px 0px;
+	   
+}
+#problem .wrapper{
+	height: 374px;
+}
+#problem-left{
+	width: 675px;
+	height:246px;
+	float:right;
+
+}
+#problem-left h2{
+	text-align: center;
+	    font-size: 18px;
+    color: #666;
+
+
+}
+
+#problem-left-content{
+	width: 633px;
+	height:170px;
+	padding:20px;
+	margin-top: 20px;
+
+	    border: 1px dotted #999;
+}
+#problem-left-content li{
+    width: 633px;
+    height: 25px;
+    padding: 8px 0px 0px 5px;
+      border-bottom: 1px dotted #999;
+
+}
+#problem-left-content li a{
+	    font-size: 15px;
+	    text-indent: 10px;
+        color: #666;
+}
+#problem-right{
+	width: 335px;
+	height:340px;
+	float:left;
+}
+#problem-right{
+	text-align: center;
+    margin: 0px;
+} 
+#problem-right-form{
+	width: 259px;
+	height: 266px;
+	padding: 0 37px;
+	border:1px dotted #999;
+}
+.p{ font-size: 18px;
+    text-align: center;
+    color: #666;
+}
+.problem-right-form-input{
+width: 259px;
+height: 27px;
+border:1px dotted #999;
+}
+.p3{
+   display: inline;
+   margin-top: 10px;
+       font-size: 15px;
+}
+#test{
+	width: 82px;
+	height: 24px;
+	 margin-top: 10px;
+	border:1px dotted #999;
+}
+#exchange{
+	width: 52px;
+	height: 31px;
+	font-size:10px;
+	 margin-top: 10px;
+
+
+}
+#button{
+	width: 259px;
+	height: 25px;
+	margin: 10px 0px;
+}
+#button input{
+	width: 100px;
+	height: 25px;
+	background: #666;
+	color:#fff;
+	font-size: 14px
+}
+/**********problem结束*************/

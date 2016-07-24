@@ -1,0 +1,332 @@
+
+/**********news开始*************/
+#news{
+	
+	height:195px;
+	
+}
+#news .wrapper{
+	height:175px;
+	
+	padding-top: 20px;
+}
+#news-left{
+	width: 660px;
+	height: 155px;
+	
+	float:left;
+
+
+}
+#news-right{
+	width: 400px;
+	height: 155px;
+
+	
+	float:right;
+}
+#left-title{
+	width:660px;
+	height:35px;
+	
+}
+
+ .title-a{
+	float:right;
+	color:#000;
+	display:block;
+	width:102px;
+	height:32px;
+	text-align: center;
+	border-radius: 16px;
+	line-height: 32px;
+}
+.title-a:hover{
+	background-color: rgb(224,102,102);
+	color:#fff;
+}
+#list{
+	margin-top: 20px;
+	clear: both;
+	
+
+	
+
+}
+#list li{
+	width: 280px;
+	height: 30px;
+	padding-left:15px;
+	margin-left: 10px; 
+	float:right;
+background:url(../img/home-bg1.png) no-repeat left center;
+  line-height: 30px;
+}
+/*#list li img{
+	margin-top: 10px;
+
+}*/
+#list li a{
+	color:#000;
+}
+#list li a:hover{
+	color:rgb(0,100,212);
+}
+#right-title h3{
+	display: inline;
+    width: 600px;
+    height: 30px;
+	
+}
+#right-content{
+	width: 400px;
+	height:90px;
+
+	margin-top:20px;
+	border:1px dotted;
+}
+#right-list{
+	padding-left: 20px;
+}
+#right-list li{
+	width: 400px;
+	height:30px;
+	padding-left: 15px;
+	background:url(../img//home-bg1.png) no-repeat left center;
+	text-align: center;
+
+}
+#right-list li a{
+	color: #000;
+	overflow: hidden;
+}
+
+/**********news结束*************/
+/**********courses开始*************/
+#courses{
+	width: 100%;
+	height: 450px;
+	background-color:rgb(245,245,245);
+	padding-top: 80px;
+}
+#courses .wrapper{
+	height: 430px;
+   
+}
+.wrapper h2{
+	text-align: center;
+	margin-top: 20px;
+}
+.wrapper h5{
+	text-align: center;
+	margin-top: 20px;
+}
+#wrapper-ul{
+	margin-top: 50px;
+}
+#wrapper-ul img{
+	
+	margin-right: 20px;
+}
+#wrapper-ul li{
+	float: left;
+}
+#wrapper-ul li a{
+	display:block;
+	text-align: center;
+	color: #000;
+}
+/**********courses结束*************/
+/**********known开始*************/
+#known{
+	height:350px;
+	width:100%;
+	background: rgb(147,196,125);
+}
+#known .wrapper{
+	height:320px;
+	width:525px;
+	padding-top: 30px;
+
+}
+#known-wrapper-title{
+  margin-left: 162px;
+}
+.p1{
+	width: 100px;
+	height:35px;
+	display:block;
+    background: rgb(255,255,255);
+	float:left;
+	text-align: center;
+	line-height:35px;
+
+}
+.p2{
+	background: rgb(241,194,50);
+	color:#fff;
+}
+.wrapper h1{
+	display: block;
+	height:63px;
+	width: 525px;
+    clear:both;
+    margin-top: 55px;
+    text-align: center;
+        font-size: 35px;
+        color:#fff;
+}
+.wrapper h4{
+	text-align:center;
+	margin-top:15px;
+	color:#fff;
+}
+#known-wrapper-content{
+	width: 525px;
+	height:72px;
+	padding-top: 15px;
+	margin-top:20px;
+	border-top:1px solid #fff;
+
+	color:#fff;
+	font-size: 12px;
+}
+#known-button{
+      margin-left: 211px;
+      width: 525px;
+      height: 27px;
+      margin-top: 15px;
+}
+#known-button a{
+	text-align: center;
+	display: block;
+	width: 100px;
+	height:25px;
+	background-color:  rgb(147,196,125);
+	color:#fff;
+	border:1px solid;
+	    border-radius: 6px;
+
+}
+#known-button a:hover{
+	color:#333;
+	background-color: #fff;
+	border: 1px solid #cc9900;
+}
+
+/**********known结束*************/
+/**********problem开始*************/
+#problem{
+	height: 374px;
+	padding: 10px 0px;
+	    background: #FEE157;
+}
+#problem .wrapper{
+	height: 374px;
+}
+#problem-left{
+	width: 675px;
+	height:246px;
+	float:left;
+
+}
+#problem-left h2{
+	
+	display: inline;
+	    font-size: 18px;
+    color: #666;
+
+
+}
+#problem .title-a{
+	margin-top: 10px;
+	background-color:#FEE157;
+}
+#problem .title-a:hover{
+	background-color: #fff;
+	color:#000;
+}
+#problem-left-content{
+	width: 633px;
+	height:170px;
+	padding:20px;
+	margin-top: 20px;
+	background-color: #FEE157;
+	    border: 1px dotted #999;
+}
+#problem-left-content li{
+    width: 633px;
+    height: 25px;
+    padding: 8px 0px 0px 5px;
+    border-bottom: 1px dotted #999;
+}
+#problem-left-content li a{ font-size: 15px;
+	    text-indent: 10px;
+        color: #666;
+        overflow: hidden;
+       text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+	   
+ 
+#problem-right{
+	width: 335px;
+	height:340px;
+	float:right;
+}
+#problem-right{
+	text-align: center;
+    margin: 0px;
+} 
+#problem-right-form{
+	width: 259px;
+	height: 266px;
+	padding: 0 37px;
+	border:1px dotted #999;
+}
+.p{ font-size: 18px;
+    text-align: center;
+    color: #666;
+}
+.problem-right-form-input{
+width: 259px;
+height: 27px;
+border:1px dotted #999;
+}
+.p3{
+   display: inline;
+   margin-top: 10px;
+       font-size: 15px;
+}
+#test{
+	width: 82px;
+	height: 24px;
+	 margin-top: 10px;
+	border:1px dotted #999;
+}
+#exchange{
+	width: 52px;
+	height: 31px;
+	font-size:10px;
+	 margin-top: 10px;
+	background-color: #FEE157;
+
+}
+#button{
+	width: 259px;
+	height: 25px;
+	margin: 10px 0px;
+}
+#button input{
+	width: 100px;
+	height: 25px;
+	background: #666;
+	color:#fff;
+	font-size: 14px
+}
+/**********problem结束*************/
+
+
+
+   
+
